@@ -56,3 +56,14 @@ ttmkfdir %{buildroot}%{_xfontdir}/TTF/doulos-sil -o %{buildroot}%{_xfontdir}/TTF
 %verify(not mtime) %{_datadir}/fonts/TTF/doulos-sil/fonts.dir
 %{_xfontdir}/TTF/doulos-sil/fonts.scale
 %{_sysconfdir}/X11/fontpath.d/ttf-doulos-sil:pri=50
+
+
+%changelog
+* Fri Dec 09 2011 Dmitry Mikhirev <dmikhirev@mandriva.org> 4.110-1mdv2012.0
++ Revision: 739486
+- Update to 4.110
+
+* Fri Jul 22 2011 Sergey Zhemoitel <serg@mandriva.org> 4.106-1
++ Revision: 690965
+- imported package fonts-ttf-doulos-sil
+
