@@ -3,7 +3,7 @@
 Summary:	Unicode Times-like font with only regular face
 Name:		fonts-ttf-doulos-sil
 Version:	4.110
-Release:	%mkrel 1
+Release:	2
 License:	OFL
 Group:		System/Fonts/True type
 URL:		http://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=DoulosSILfont
